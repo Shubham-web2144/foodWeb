@@ -1,0 +1,43 @@
+.tips {
+    position: relative;
+    width: 100%;
+    padding: 50px 90px;
+    display: flex;
+    flex-direction: column;
+}
+.tips__txt {
+    position: relative;
+    width: 650px;
+    padding: 20px 20px;
+    background-color: #f1f1f1;
+    margin: 25px 0px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 9px rgba(0,0,0,0.3);
+}
+.tips__txt-no {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #af1106;
+    border-radius: 50%;
+    top: -20%;
+    text-align: center;
+    line-height: 70px;
+    font-weight: 700;
+    color: #fff;
+}
+.tips__txt-info {
+    position: relative;
+    margin-top: 20px;
+}
+.tips__txt-info h3 {
+    font-size: 23px;
+    font-weight: 800;
+}
+.tips__txt-info p {
+    font-weight: 400;
+    font-size: 15px;
+}
+.left {
+    margin-left: 45%;
+}

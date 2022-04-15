@@ -1,0 +1,97 @@
+.slideShow {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    margin-top: 3px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slide_img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+  }
+  /* product section css */
+  .productBox {
+      position: relative;
+      width: 100%;
+      padding: 50px 90px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .productCard {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      background: #f1f1f1;
+      padding: 14px 10px;
+      border-radius: 5px;
+      margin: 20px 15px;
+      box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+  }
+  .productCard__img {
+      width: 100%;
+      height: 50%;
+      object-fit: fill;
+  }
+  .productCard__txt {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 15px 0px;
+  }
+  .productCard__txt h3 {
+      font-size: 19px;
+  }
+  .productCard__txt p {
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.4px;
+      margin-top: 4px;
+      margin-bottom: 10px;
+  }
+  .productCard__txt h2 {
+      color: #af1106;
+      margin-bottom: 7px;
+  }
+  .productCard__btn {
+      padding: 10px 12px;
+      background-color: #af1106;
+      color: #fff;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      border-radius: 5px;
+      text-decoration: none;
+  }
